@@ -107,9 +107,9 @@ export default function PdfExport({ model, selectedMonth, start, end, managerNam
                     3: { cellWidth: 90 * scaleRatio },
                 },
                 body: [
-                    ['NOM :',           'RAZAFIMAMONJY',           'Période Stage :',  '27/04/2026 au 26/07/2026'],
-                    ['PRENOMS :',       'Fahatokiana David',        'Durée Stage :',    '3 mois'],
-                    ['MVOLA :',         '0389518154',               '',                 ''],
+                    ['NOM :',           'HARINAMBININA',           'Période Stage :',  '15/06/2026 au 14/09/2026'],
+                    ['PRENOMS :',       'Ranto Luciano',        'Durée Stage :',    '3 mois'],
+                    ['MVOLA :',         '0349486704',               '',                 ''],
                     ['Période Fiche :', `${formatDate(start)} au ${formatDate(end)}`, '', ''],
                 ],
             });
@@ -187,7 +187,7 @@ export default function PdfExport({ model, selectedMonth, start, end, managerNam
 
             doc.setFont(font, 'bold');
             const nameY = lineY + (4 * scaleRatio);
-            doc.text('Fahatokiana David RAZAFIMAMONJY', leftCenterX, nameY, { align: 'center' });
+            doc.text('Ranto Luciano HARINAMBININA', leftCenterX, nameY, { align: 'center' });
             // ✅ Utilise le manager actif dynamiquement
             doc.text(managerName, rightCenterX, nameY, { align: 'center' });
 
