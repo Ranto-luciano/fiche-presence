@@ -21,10 +21,9 @@ function SecurityGuard({ children }) {
 }
 
 const PERIODS = {
-    'Avril – Mai 2026':    [new Date(2026, 3, 27), new Date(2026, 4, 13)],
-    'Mai – Juin 2026':     [new Date(2026, 4, 15), new Date(2026, 5, 15)],
-    'Juin – Juillet 2026': [new Date(2026, 5, 16), new Date(2026, 6, 15)],
-    'Juillet – Août 2026': [new Date(2026, 6, 16), new Date(2026, 7, 15)],
+    'Juin – Juillet 2026':    [new Date(2026, 3, 15), new Date(2026, 4, 15)],
+    'Juillet – Aout 2026':     [new Date(2026, 4, 16), new Date(2026, 5, 15)],
+    'Aout – Septembre 2026': [new Date(2026, 5, 16), new Date(2026, 6, 15)],
 };
 
 function getDaysInRange(start, end) {

@@ -4,12 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyACzEKmMgCmsHuKRZzvODDAV2Ox9l209O0",
-    authDomain: "fiche-presence.firebaseapp.com",
-    projectId: "fiche-presence",
-    storageBucket: "fiche-presence.firebasestorage.app",
-    messagingSenderId: "606340890898",
-    appId: "1:606340890898:web:cfe822ef7fdb126f5b73cb"
+  apiKey: "AIzaSyAXVBskgILi79shm8WF9M5L97zm7LVYck4",
+  authDomain: "fiche-presence-f5a92.firebaseapp.com",
+  projectId: "fiche-presence-f5a92",
+  storageBucket: "fiche-presence-f5a92.firebasestorage.app",
+  messagingSenderId: "755507598588",
+  appId: "1:755507598588:web:3b8cbec5ffe15ec4f6f379",
+  measurementId: "G-LWN9EWB92K"
 };
 
 const app = initializeApp(firebaseConfig);
