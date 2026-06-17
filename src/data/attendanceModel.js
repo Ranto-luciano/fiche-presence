@@ -1,7 +1,7 @@
 // src/data/attendanceModel.js
 
-export const STAGE_START = new Date(2026, 3, 27); // 27 avril
-export const STAGE_END   = new Date(2026, 6, 26); // 26 juillet
+export const STAGE_START = new Date(2026, 5, 15); // 27 avril
+export const STAGE_END   = new Date(2026, 8, 14); // 26 juillet
 
 export const JOURS_FERIES = new Set([
     '2026-05-01',
