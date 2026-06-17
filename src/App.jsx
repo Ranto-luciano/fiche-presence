@@ -80,7 +80,7 @@ function MainApp({ onLogout }) {
                             Fiche de Présence
                         </h1>
                         <div style={{ color: '#93c5fd', fontSize: 12, marginTop: 2 }}>
-                            YAS Madagascar · D.S.I · Fahatokiana David RAZAFIMAMONJY
+                            YAS Madagascar · D.S.I · HARINAMBININA Ranto Luciano
                         </div>
                     </div>
 

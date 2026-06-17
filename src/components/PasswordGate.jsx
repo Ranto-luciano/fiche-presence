@@ -19,7 +19,7 @@ export function PasswordGate({ onSuccess }) {
         if (!value.trim()) return;
         setLoading(true);
         try {
-            await signIn('fchprsdvd@fichep.mg', value);
+            await signIn('fchprsrnt@fichep.mg', value);
             onSuccess();
         } catch (e) {
             setErrorMsg('Mot de passe incorrect'); // ← ajouter ça
@@ -38,7 +38,7 @@ export function PasswordGate({ onSuccess }) {
             const result = await signInWithGoogle();
             const email = result.user.email;
 
-            const allowed = ["fchprsdvd@fichep.mg", "arazafimamonjydavid@gmail.com"];
+            const allowed = ["fchprsdvd@fichep.mg", "rantoluciano622@gmail.com"];
 
             if (!allowed.includes(email)) {
                 // Déconnecter immédiatement
