@@ -38,7 +38,7 @@ export function PasswordGate({ onSuccess }) {
             const result = await signInWithGoogle();
             const email = result.user.email;
 
-            const allowed = ["fchprsdvd@fichep.mg", "rantoluciano622@gmail.com"];
+            const allowed = ["fchprsrnt@fichep.mg", "rantoluciano622@gmail.com"];
 
             if (!allowed.includes(email)) {
                 // Déconnecter immédiatement

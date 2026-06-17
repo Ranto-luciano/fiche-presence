@@ -21,9 +21,9 @@ function SecurityGuard({ children }) {
 }
 
 const PERIODS = {
-    'Juin – Juillet 2026':    [new Date(2026, 3, 15), new Date(2026, 4, 15)],
-    'Juillet – Aout 2026':     [new Date(2026, 4, 16), new Date(2026, 5, 15)],
-    'Aout – Septembre 2026': [new Date(2026, 5, 16), new Date(2026, 6, 15)],
+    'Juin – Juillet 2026':    [new Date(2026, 5, 15), new Date(2026, 6, 15)],
+    'Juillet – Aout 2026':     [new Date(2026, 6, 16), new Date(2026, 7, 15)],
+    'Aout – Septembre 2026': [new Date(2026, 7, 16), new Date(2026, 8, 15)],
 };
 
 function getDaysInRange(start, end) {
@@ -49,7 +49,7 @@ function formatAbsenceSummary(absenceDays) {
 }
 
 function MainApp({ onLogout }) {
-    const [selectedPeriod, setSelectedPeriod] = useState('Avril – Mai 2026');
+    const [selectedPeriod, setSelectedPeriod] = useState('Juin – Juillet 2026');
     const { model, loading, absenceDays, handleToggle, handleReset } = useAttendance();
     const { managers, activeManager, handleSwitch, handleUpdateName } = useManagers();
 
