@@ -11,6 +11,7 @@ export const JOURS_FERIES = new Set([
     '2026-06-26',
     '2026-08-24',
     '2026-08-15',
+    '2026-09-25',
 ]);
 
 export const PERIODS = {
