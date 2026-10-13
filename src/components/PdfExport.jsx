@@ -107,8 +107,8 @@ export default function PdfExport({ model, selectedMonth, start, end, managerNam
                     3: { cellWidth: 90 * scaleRatio },
                 },
                 body: [
-                    ['NOM :',           'HARINAMBININA',           'Période Stage :',  '15/06/2026 au 14/09/2026'],
-                    ['PRENOMS :',       'Ranto Luciano',        'Durée Stage :',    '3 mois'],
+                    ['NOM :',           'HARINAMBININA',           'Période Stage :',  '15/06/2026 au 14/11/2026'],
+                    ['PRENOMS :',       'Ranto Luciano',        'Durée Stage :',    '6 mois'],
                     ['MVOLA :',         '0349486704',               '',                 ''],
                     ['Période Fiche :', `${formatDate(start)} au ${formatDate(end)}`, '', ''],
                 ],
